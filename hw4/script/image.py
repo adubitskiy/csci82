@@ -13,9 +13,13 @@ def load_jpg(folder, file_name, w, h, grey = True):
 
 def load_train_gray_jpg_120(file_name):
     return load_jpg('train', file_name, 120, 120)
+	
+def load_train_gray_jpg_60(file_name):
+    return load_jpg('train', file_name, 60, 60)	
 
 def load_train_color_224(file_name):
     return load_jpg('train', file_name, 224, 224, False)
 
+	
 
 
